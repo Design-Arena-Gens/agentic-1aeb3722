@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-inter), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+input, select {
+  color-scheme: dark;
+}
+
+.font-anton {
+  font-family: var(--font-anton), "Anton", Impact, sans-serif;
+}
+
+.font-bebas {
+  font-family: var(--font-bebas), "Bebas Neue", "Arial Narrow", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(148, 163, 184, 0.15);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(71, 85, 105, 0.8);
+  border-radius: 1rem;
+}
